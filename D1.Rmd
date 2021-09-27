@@ -1,0 +1,20 @@
+---
+title: "Mineria de Dades D1"
+author: "Andreu Companys"
+date: "27/9/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+dd <- read.csv2("bank.csv")
+```
+
+```{r}
+dd$pdays[dd$pdays==-1] <- NA
+colSums(is.na(dd))
+```
+
