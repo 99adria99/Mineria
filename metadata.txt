@@ -1,10 +1,11 @@
 Base de datos: bank.csv
-    Información 
-	Descripción: Características de los clientes de un banco portugués relacionadas con la campaña de marketing
+    Información base
+	Descripción: Características de los clientes de un banco portugués relacionadas con su campaña de marketing
 	Num.observaciones: 4119
 	Num.variables: 21
 	Num.missings: 5189
 	% de missings que representan: 5.99
+	
     Variables
       Variable respuesta: "y" el cliente se ha suscrito?
       Descripción de la variables:
