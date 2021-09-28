@@ -5,7 +5,7 @@ Base de datos: bank.csv
 	Num.variables: 21
 	Num.missings: 5189
 	% de missings que representan: 5.99
-	
+	Tipos de missings (seran substituidos por NA's): 'uknown', '999'
     Variables
       Variable respuesta: "y" el cliente se ha suscrito?
       Descripción de la variables:
